@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=SAMRI-preprocessed data in BIDS fromat from the NVCZ study
+EAPI=7
+HOMEPAGE=https://gitlab.com/Chymera/nvcz
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=http://resources.chymera.eu/distfiles/nvcz_preprocessed-1.0.0.tar.xz
+_md5_=d9bb2d5185bbc078439245005e619f41

@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=YAML schema reference for BIDS specification
+EAPI=8
+HOMEPAGE=https://github.com/bids-standard/bids-schema
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+LICENSE=CC-BY-SA-4.0
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=6652c38f595cb87c5c4d2428262e128c

@@ -1,0 +1,50 @@
+app-backup/mkstage4 0.3.1 0.4 9999: Bash Utility for Creating Stage 4 Tarballs
+app-misc/ansiweather 1.18.0: Weather in terminal, with ANSI colors and Unicode symbols
+app-misc/gebuilder 0.1: Gentoo System and Image Builder
+app-misc/imcat 0_alpha: Show any image in a terminal window.
+app-misc/mkusers 9999: Automatically Create a Large Amount of Users on a Linux System.
+app-misc/patternBG 0.1: Python script that creates tile-based visual art.
+app-misc/ppb 0.2.0 0.2.1 0.2.2 9999: The Personal Pastebin
+app-misc/quickdigitalcamera 9999: The Personal Pastebin
+app-misc/quickscreenvid 9999: The Personal Pastebin
+app-misc/repositorg 0.1 0.1.1 9999: Automatically reposit, organize, rename, and process large collections of files.
+app-misc/ualarmer 0.0.1 0.0.2 0.0.3: Minimalistic alarm clock for the command line.
+app-text/sarcasm-formatter 0.1.1 0.1.3: Reormat text as alternating lower and upper case letters
+dev-python/ci_info 0.2.0 0.3.0: Gather continuous integration information on the fly
+dev-python/etelemetry 0.2.2 0.3.0: Lightweight python client to communicate with the etelemetry server
+dev-python/ndx-optogenetics 9999: NWB extension package for better optogenetics support.
+dev-python/norby 9999: Get notified via a telegram bot when your bash command finished.
+dev-python/nwb-conversion-tools 0.9.3: Create NWB files by converting proprietary formats and adding essential metadata
+dev-python/ome-zarr 0.2.0 0.4.1: Next-generation file format (NGFF) for storing bioimaging data in the cloud
+dev-python/pygantt 0.1.2 9999: Simple Gantt Charts in Python
+dev-python/spikeextractors 0.9.7: Extract, convert, and interface with extracellular data, now in spikeinterfaces
+dev-python/subprocess-tee 0.1.6: An drop-in alternative to subprocess.run that captures the output while still printing it in real time, just the way tee does.
+dev-python/wget 3.2: pure python download utility
+dev-util/py-spy 0.3.11: Sampling profiler for Python programs
+dev-vcs/dandi-cli 0.45.1_p1: DANDI command line client to facilitate common operations
+gui-apps/waybar-tooltips 0.0.6 0.0.7 0.0.8 0.0.9: Tooltips for Waybar
+gui-apps/wlsunset 0.2.0: Day/night gamma adjustments for Wayland
+media-fonts/freie-fraktur 0.0.1 0.1.0: A collection of freely licensed Fraktur typefaces.
+media-gfx/blender 2.90.1-r1 2.91.2: 3D Creation/Animation/Publishing System
+media-gfx/stackHDR 9999: Integrated processing for exposure-bracketed images
+net-im/toxic 9999: A curses-based client for Tox
+net-misc/pipe-viewer 0.1.4 0.4.4 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
+sci-biology/afni 9999: Advanced Normalitazion Tools for neuroimaging
+sci-biology/bids-cli 0.0.1: BIDS Command Line Interface
+sci-biology/bids-schema 1.7.0_p20220217 9999: YAML schema reference for BIDS specification
+sci-biology/bidsschematools 0.3.1 0.3.1_p2: A Python library for working with the BIDS schema
+sci-biology/drlfom_bidsdata 1.1.1: BIDS data files released with the DRLFOM publication
+sci-biology/irsabi_brudata 1.4.1: Raw data files released with the IRSABI publication
+sci-biology/nvcz_data 0.2: Bruker and BIDS data from neurovascular coupling experiments
+sci-biology/nvcz_preprocessed 1.0.0: SAMRI-preprocessed data in BIDS fromat from the NVCZ study
+sci-biology/opfvta_bidsdata 2.1: BIDS data files released with the OPFVTA publication
+sci-biology/opfvta_brudata 2.0: BIDS data files released with the OPFVTA publication
+sci-biology/plamri_brudata 0.1: Bruker ParaVision data files for testing the PlaMRI package
+sci-biology/ztau_bidsdata 1.0: BIDS data files released with the OPFVTA publication
+sci-libs/libxc 4.3.4: A library of exchange-correlation functionals for use in DFT
+sci-libs/simpleitk 1.2.4 2.0.0 2.1.1: Layer on top of ITK for rapid prototyping, education and interpreted languages.
+sci-libs/torchio 0.17.42: Efficiently process 3D images in deep learning applications.
+sci-misc/doi2bib 0.4.0: Get the bibtex string given a DOI
+sci-visualization/niicat 0.4.3: This is a tool to quickly preview nifti images on the terminal
+sys-fs/tmsu 0.7.5 0.7.5_p20220210: File tagger and virtual tag-based filesystem
+x11-themes/wallpaper-art 0.0.1: Historical wallpaper artwork

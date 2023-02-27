@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare test
+DEPEND=>=app-shells/bash-4.2:* net-misc/rsync sys-apps/portage sys-apps/util-linux sys-boot/syslinux sys-fs/duperemove sys-kernel/dracut sys-devel/m4
+DESCRIPTION=Gentoo System and Image Builder
+EAPI=7
+HOMEPAGE=https://github.com/IBT-FMI/gebuilder
+IUSE=autoupdate btrfs docker openstack test
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=app-shells/bash-4.2:* net-misc/rsync sys-apps/portage sys-apps/util-linux sys-boot/syslinux sys-fs/duperemove sys-kernel/dracut sys-process/lsof autoupdate? ( virtual/cron ) btrfs? ( sys-fs/btrfs-progs ) docker? ( app-containers/docker ) openstack? ( dev-python/python-glanceclient )
+RESTRICT=!test? ( test )
+SLOT=0
+SRC_URI=https://github.com/IBT-FMI/gebuilder/archive/0.1.tar.gz -> gebuilder-0.1.tar.gz
+_md5_=47f58d6c9694ef2d122b4f9b859e383f

@@ -1,0 +1,14 @@
+DEFINED_PHASES=install
+DESCRIPTION=Tooltips for Waybar
+EAPI=8
+HOMEPAGE=https://github.com/TheChymera/waybar-tooltips/
+INHERIT=python-r1
+IUSE=khal +weather python_targets_python3_9 python_targets_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=python_targets_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_targets_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) media-fonts/fontawesome khal? ( app-misc/khal[python_targets_python3_9(-)?,python_targets_python3_10(-)?] ) weather? ( app-misc/ansiweather )
+REQUIRED_USE=|| ( python_targets_python3_9 python_targets_python3_10 )
+SLOT=0
+SRC_URI=https://github.com/TheChymera/waybar-tooltips/archive/refs/tags/0.0.7.tar.gz -> waybar-tooltips-0.0.7.gh.tar.gz
+_eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-r1	666be58f658d6b32affe30f80e39a49e
+_md5_=99d95122bc0145bfdb8db1dad58c377b
