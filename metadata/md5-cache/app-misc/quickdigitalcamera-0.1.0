@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=The Personal Pastebin
+EAPI=8
+HOMEPAGE=https://github.com/TheChymera/quickdigitalcamera
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-gfx/gphoto2 media-video/mpv
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/TheChymera/quickdigitalcamera/archive/0.1.0.tar.gz -> quickdigitalcamera-0.1.0.tar.gz
+_md5_=3e470515318ad82cf9ef9d6ffb984529
