@@ -35,6 +35,7 @@ sci-biology/bids-schema 1.7.0_p20220217 9999: YAML schema reference for BIDS spe
 sci-biology/bidsschematools 0.3.1 0.3.1_p2: A Python library for working with the BIDS schema
 sci-biology/drlfom_bidsdata 1.1.1: BIDS data files released with the DRLFOM publication
 sci-biology/irsabi_brudata 1.4.1: Raw data files released with the IRSABI publication
+sci-biology/neuroconv 0.2.4_p20230413: Create NWB files from proprietary formats.
 sci-biology/nvcz_data 0.2: Bruker and BIDS data from neurovascular coupling experiments
 sci-biology/nvcz_preprocessed 1.0.0: SAMRI-preprocessed data in BIDS fromat from the NVCZ study
 sci-biology/opfvta_bidsdata 2.1: BIDS data files released with the OPFVTA publication

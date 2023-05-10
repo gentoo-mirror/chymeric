@@ -38,3 +38,6 @@ net-im/toxic:sound - Enables audio calling
 net-im/toxic:video - Enables video calling
 net-misc/pipe-viewer:gtk - Install the GTK3 GUI
 sci-biology/bidsschematools:render - Support for schema table rendering
+sci-biology/neuroconv:ecephys - Extracellular electrophysiology interfaces
+sci-biology/neuroconv:icephys - Intracellular electrophysiology interfaces
+sci-biology/neuroconv:ophys - Optical physiology interfaces
