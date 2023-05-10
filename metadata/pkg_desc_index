@@ -18,6 +18,7 @@ dev-python/nwb-conversion-tools 0.9.3: Create NWB files by converting proprietar
 dev-python/ome-zarr 0.2.0 0.4.1: Next-generation file format (NGFF) for storing bioimaging data in the cloud
 dev-python/pygantt 0.1.2 9999: Simple Gantt Charts in Python
 dev-python/spikeextractors 0.9.7: Extract, convert, and interface with extracellular data, now in spikeinterfaces
+dev-python/subprocess-tee 0.1.6: An drop-in alternative to subprocess.run that captures the output while still printing it in real time, just the way tee does.
 dev-python/wget 3.2: pure python download utility
 dev-util/py-spy 0.3.11: Sampling profiler for Python programs
 dev-vcs/dandi-cli 0.45.1_p1: DANDI command line client to facilitate common operations
