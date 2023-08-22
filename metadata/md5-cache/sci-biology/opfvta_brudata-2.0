@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
 LICENSE=CC-BY-SA-4.0
 SLOT=0
 SRC_URI=http://resources.chymera.eu/distfiles/opfvta_brudata-2.0.tar.xz
-_eclasses_=check-reqs	a5f1e025c53d62f98bc24bd63d7d95e1
+_eclasses_=check-reqs	02ac7654b64f7acc7a8b1a35ad9d6ddc
 _md5_=1fae0747bd98e2eae10497ae571d52e4
