@@ -29,7 +29,7 @@ media-gfx/graphviz 8.0.3-r1: Open Source Graph Visualization Software
 media-gfx/stackHDR 9999: Integrated processing for exposure-bracketed images
 net-im/toxic 9999: A curses-based client for Tox
 net-misc/pipe-viewer 0.1.4 0.4.4 9999: A lightweight YouTube client for Linux (fork of straw-viewer)
-sci-biology/afni 9999: Advanced Normalitazion Tools for neuroimaging
+sci-biology/afni 23.3.13_p20231212 9999: Advanced Normalitazion Tools for neuroimaging
 sci-biology/bids-cli 0.0.1: BIDS Command Line Interface
 sci-biology/bids-schema 1.7.0_p20220217 9999: YAML schema reference for BIDS specification
 sci-biology/bidsschematools 0.3.1 0.3.1_p2: A Python library for working with the BIDS schema
