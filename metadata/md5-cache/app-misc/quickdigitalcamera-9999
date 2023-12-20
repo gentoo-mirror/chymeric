@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=media-gfx/gphoto2 media-video/mpv
 RESTRICT=test
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=9f8362c5d92d6a348b97858943476c39

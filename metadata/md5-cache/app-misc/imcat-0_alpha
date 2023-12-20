@@ -9,5 +9,5 @@ KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
 LICENSE=CC0-1.0
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=31a2db274dee0cb66a5da71714a93868
