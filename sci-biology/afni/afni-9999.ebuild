@@ -10,14 +10,12 @@ inherit cmake distutils-r1 git-r3 ninja-utils
 #inherit cmake-multilib distutils-r1 git-r3 ninja-utils
 #inherit cmake distutils-r1 git-r3 multilib ninja-utils
 
-GTS_HASH="962155a01f5a1b87bd64e3e3d880b4dbc2347ac7"
 NIFTI_HASH="65f801b9c2f1f15f4de4a19d45e6595c25765632"
 GIFTI_HASH="5eae81ba1e87ef3553df3b6ba585f12dc81a0030"
 
 DESCRIPTION="Advanced Normalitazion Tools for neuroimaging"
 HOMEPAGE="http://stnava.github.io/ANTs/"
 SRC_URI="
-	https://github.com/leej3/gts/archive/${GTS_HASH}.tar.gz
 	https://github.com/NIFTI-Imaging/nifti_clib/archive/${NIFTI_HASH}.tar.gz
 	https://github.com/NIFTI-Imaging/gifti_clib/archive/${GIFTI_HASH}.tar.gz
 	"
@@ -41,6 +39,7 @@ RDEPEND="
 	media-libs/qhull
 	media-video/mpeg-tools
 	sci-libs/gsl
+	sci-libs/gts
 	sys-devel/llvm:*
 	sys-libs/libomp
 	dev-libs/libpthread-stubs
@@ -63,7 +62,6 @@ DEPEND="
 # look for xmhtlm
 
 src_prepare() {
-	tar xf "${DISTDIR}/${GTS_HASH}.tar.gz" || die
 	tar xf "${DISTDIR}/${NIFTI_HASH}.tar.gz" || die
 	tar xf "${DISTDIR}/${GIFTI_HASH}.tar.gz" || die
 	cmake_src_prepare
@@ -78,6 +76,7 @@ src_configure() {
 	#-CC="$(tc-getCC)"
 	local mycmakeargs=(
 		-GNinja
+		-DUSE_SYSTEM_GTS=ON
 		-DLIBDIR=/usr/$(get_libdir)
 		-DNIFTI_INSTALL_LIBRARY_DIR=/usr/$(get_libdir)
 		-DGIFTI_INSTALL_LIBRARY_DIR=/usr/$(get_libdir)
@@ -87,8 +86,6 @@ src_configure() {
 		-DUSE_SYSTEM_NIFTI=OFF
 		-DUSE_SYSTEM_GIFTI=OFF
 		-DUSE_SYSTEM_XMHTML=OFF
-		-DUSE_SYSTEM_GTS=OFF
-		-DFETCHCONTENT_SOURCE_DIR_GTS="${WORKDIR}/${P}/gts-${GTS_HASH}"
 		-DFETCHCONTENT_SOURCE_DIR_NIFTI_CLIB="${WORKDIR}/${P}/nifti_clib-${NIFTI_HASH}"
 		-DFETCHCONTENT_SOURCE_DIR_GIFTI_CLIB="${WORKDIR}/${P}/gifti_clib-${GIFTI_HASH}"
 		-DCOMP_GUI=ON
