@@ -10,6 +10,7 @@ inherit cmake distutils-r1 git-r3 ninja-utils
 #inherit cmake-multilib distutils-r1 git-r3 ninja-utils
 #inherit cmake distutils-r1 git-r3 multilib ninja-utils
 
+GTS_HASH="962155a01f5a1b87bd64e3e3d880b4dbc2347ac7"
 NIFTI_HASH="65f801b9c2f1f15f4de4a19d45e6595c25765632"
 GIFTI_HASH="5eae81ba1e87ef3553df3b6ba585f12dc81a0030"
 
@@ -80,7 +81,6 @@ src_configure() {
 		#-DUSE_SYSTEM_GTS=OFF
 	local mycmakeargs=(
 		-GNinja
-		-DUSE_SYSTEM_GTS=ON
 		-DLIBDIR=/usr/$(get_libdir)
 		-DNIFTI_INSTALL_LIBRARY_DIR=/usr/$(get_libdir)
 		-DGIFTI_INSTALL_LIBRARY_DIR=/usr/$(get_libdir)
