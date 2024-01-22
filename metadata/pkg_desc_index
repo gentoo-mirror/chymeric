@@ -9,6 +9,7 @@ app-misc/quickdigitalcamera 0.1.0 9999: The Personal Pastebin
 app-misc/quickscreenvid 9999: The Personal Pastebin
 app-misc/repositorg 0.1 0.1.1 0.1.2 9999: Automatically reposit, organize, rename, and process large collections of files.
 app-misc/ualarmer 0.0.1 0.0.2 0.0.3: Minimalistic alarm clock for the command line.
+app-misc/ular 0.0.4: Minimalistic CLI alarm clock writing state to a temp file.
 app-text/sarcasm-formatter 0.1.1 0.1.3: Reormat text as alternating lower and upper case letters
 dev-python/ci_info 0.2.0 0.3.0: Gather continuous integration information on the fly
 dev-python/etelemetry 0.2.2 0.3.0: Lightweight python client to communicate with the etelemetry server
