@@ -21,7 +21,7 @@ dev-python/subprocess-tee 0.1.6: An drop-in alternative to subprocess.run that c
 dev-python/wget 3.2: pure python download utility
 dev-util/py-spy 0.3.11: Sampling profiler for Python programs
 dev-vcs/dandi-cli 0.45.1_p1: DANDI command line client to facilitate common operations
-gui-apps/waybar-tooltips 0.0.8 0.0.9: Tooltips for Waybar
+gui-apps/waybar-tooltips 0.0.9 0.1.0: Tooltips for Waybar
 gui-apps/wlsunset 0.2.0: Day/night gamma adjustments for Wayland
 media-fonts/freie-fraktur 0.0.1 0.1.0: A collection of freely licensed Fraktur typefaces.
 media-gfx/graphviz 8.0.3-r1: Open Source Graph Visualization Software
