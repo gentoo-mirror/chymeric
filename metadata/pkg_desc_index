@@ -3,7 +3,7 @@ app-misc/ansiweather 1.18.0: Weather in terminal, with ANSI colors and Unicode s
 app-misc/gebuilder 0.1 9999: Gentoo System and Image Builder
 app-misc/imcat 0_alpha: Show any image in a terminal window.
 app-misc/patternBG 0.1: Python script that creates tile-based visual art.
-app-misc/ppb 0.2.2 0.2.3 0.2.4 9999: The Personal Pastebin
+app-misc/ppb 0.2.2 0.2.3 0.2.4 0.2.5 9999: The Personal Pastebin
 app-misc/quickdigitalcamera 0.1.0 9999: The Personal Pastebin
 app-misc/quickscreenvid 9999: The Personal Pastebin
 app-misc/repositorg 0.1 0.1.1 0.1.2 9999: Automatically reposit, organize, rename, and process large collections of files.
