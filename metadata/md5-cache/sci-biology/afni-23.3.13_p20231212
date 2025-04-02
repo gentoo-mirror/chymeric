@@ -13,5 +13,5 @@ RDEPEND=dev-libs/glib:2 dev-libs/libf2c dev-libs/expat dev-util/ninja media-libs
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/leej3/gts/archive/962155a01f5a1b87bd64e3e3d880b4dbc2347ac7.tar.gz https://github.com/NIFTI-Imaging/nifti_clib/archive/da476fd27f46098f37f5c9c4c1baee01e559572c.tar.gz https://github.com/NIFTI-Imaging/gifti_clib/archive/d3e873d8539d9b469daf7db04093da1d7e73d4f7.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	10a50dfaf728b802fcfd37f8d0da9056	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c0c9c21d01b8a96d2d736c554daedc57	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=6ba10bd25d1bc6337c826c52b5caa77b
