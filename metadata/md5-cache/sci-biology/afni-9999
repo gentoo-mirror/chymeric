@@ -1,17 +1,17 @@
-BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-78.1.0[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5 python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-78.1.0[python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-libs/glib:2 dev-libs/libf2c dev-libs/expat dev-util/ninja media-libs/freeglut media-libs/glu media-libs/netpbm media-libs/qhull media-video/mpeg-tools sci-libs/gsl sci-libs/gts sys-devel/llvm:* sys-libs/libomp dev-libs/libpthread-stubs virtual/jpeg-compat:62 x11-libs/libGLw x11-libs/libXft x11-libs/libXi x11-libs/libXmu x11-libs/libXpm x11-libs/libXt x11-libs/motif[-static-libs] app-shells/tcsh
 DESCRIPTION=Advanced Normalitazion Tools for neuroimaging
 EAPI=8
 HOMEPAGE=http://stnava.github.io/ANTs/
 INHERIT=cmake distutils-r1 git-r3 ninja-utils
-IUSE=test whirlgif python_targets_python3_10 python_targets_python3_11
+IUSE=test whirlgif python_targets_python3_11
 LICENSE=GPL-3+
 PROPERTIES=live
-RDEPEND=dev-libs/glib:2 dev-libs/libf2c dev-libs/expat dev-util/ninja media-libs/freeglut media-libs/glu media-libs/netpbm media-libs/qhull media-video/mpeg-tools sci-libs/gsl sci-libs/gts sys-devel/llvm:* sys-libs/libomp dev-libs/libpthread-stubs virtual/jpeg-compat:62 x11-libs/libGLw x11-libs/libXft x11-libs/libXi x11-libs/libXmu x11-libs/libXpm x11-libs/libXt x11-libs/motif[-static-libs] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
-REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
+RDEPEND=dev-libs/glib:2 dev-libs/libf2c dev-libs/expat dev-util/ninja media-libs/freeglut media-libs/glu media-libs/netpbm media-libs/qhull media-video/mpeg-tools sci-libs/gsl sci-libs/gts sys-devel/llvm:* sys-libs/libomp dev-libs/libpthread-stubs virtual/jpeg-compat:62 x11-libs/libGLw x11-libs/libXft x11-libs/libXi x11-libs/libXmu x11-libs/libXpm x11-libs/libXt x11-libs/motif[-static-libs] python_targets_python3_11? ( dev-lang/python:3.11 )
+REQUIRED_USE=|| ( python_targets_python3_11 )
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://github.com/NIFTI-Imaging/nifti_clib/archive/da476fd27f46098f37f5c9c4c1baee01e559572c.tar.gz https://github.com/NIFTI-Imaging/gifti_clib/archive/d3e873d8539d9b469daf7db04093da1d7e73d4f7.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	3641642ea51cdadc1d1ea0bb8404ae89	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	2a874f6b13be509cff13de8e37085386	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=a099ea034b634589f380722c43b0db0d
