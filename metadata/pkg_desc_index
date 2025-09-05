@@ -2,7 +2,7 @@ app-backup/mkstage4 0.3.1 0.4 9999: Bash Utility for Creating Stage 4 Tarballs
 app-misc/ansiweather 1.18.0: Weather in terminal, with ANSI colors and Unicode symbols
 app-misc/gebuilder 0.1 9999: Gentoo System and Image Builder
 app-misc/imcat 0_alpha: Show any image in a terminal window.
-app-misc/ppb 0.2.2 0.2.3 0.2.4 0.2.5 9999: The Personal Pastebin
+app-misc/ppb 0.2.5 0.2.6 9999: The Personal Pastebin
 app-misc/quickdigitalcamera 0.1.0 9999: The Personal Pastebin
 app-misc/quickscreenvid 9999: The Personal Pastebin
 app-misc/repositorg 0.1.2 9999: Automatically reposit, organize, rename, and process large collections of files.
