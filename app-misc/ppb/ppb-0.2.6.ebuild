@@ -24,6 +24,7 @@ RESTRICT="test"
 src_install() {
 	dobin "bin/ppb"
 	dobin "bin/rppb"
+	dobin "bin/tppb"
 
 	insinto "/etc/"
 	doins config/ppb.conf
