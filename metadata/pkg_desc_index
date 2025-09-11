@@ -8,6 +8,7 @@ app-misc/quickscreenvid 9999: The Personal Pastebin
 app-misc/repositorg 0.1.2 0.1.3 9999: Automatically reposit, organize, rename, and process large collections of files.
 app-misc/ular 0.0.4 0.0.5: Minimalistic CLI alarm clock writing state to a temp file.
 app-text/sarcasm-formatter 0.1.1 0.1.3: Reormat text as alternating lower and upper case letters
+dev-python/pygantt 0.1.2: Simple Gantt Charts in Python
 dev-util/py-spy 0.3.11: Sampling profiler for Python programs
 gui-apps/waybar-tooltips 0.0.9 0.1.0: Tooltips for Waybar
 gui-apps/wlsunset 0.2.0: Day/night gamma adjustments for Wayland
